@@ -9,8 +9,8 @@ languageCode = 'en-tt'
   [[module.mounts]]
     source = "themes/_menus_ttms/content"
     target = "content"
-title = '{{SITE_TITLE}}'
-baseURL = 'https://{{CLIENT_NAME}}.ttmenus.com/'
+title = 'Whipped'
+baseURL = 'https://whipped.ttmenus.com/'
 
 [markup]
 
@@ -41,7 +41,7 @@ baseURL = 'https://{{CLIENT_NAME}}.ttmenus.com/'
   notifyServiceUrl = "https://notify.ttmenus.com"
 
 [params.ads]
-    clientId = "ttms_{{CLIENT_NAME}}"
+    clientId = "ttms_whipped"
     enabled = true
     apiUrl = "https://ads.ttmenus.com/api/v1"
 
@@ -53,7 +53,7 @@ baseURL = 'https://{{CLIENT_NAME}}.ttmenus.com/'
     enabled = true
     apiUrl = "https://cms.ttmenus.com/api"
     serviceUrl = "https://cms.ttmenus.com"
-    clientId = "ttms_{{CLIENT_NAME}}"
+    clientId = "ttms_whipped"
     # For local development, use:
     # apiUrl = "http://localhost:8084/api"
     # serviceUrl = "http://localhost:8084"
@@ -78,17 +78,17 @@ baseURL = 'https://{{CLIENT_NAME}}.ttmenus.com/'
     servicecharge = 0
     hastables = true
     usephonecall = false
-    whatsapp = {{WHATSAPP}}
-    phone = {{PHONE}}
+    whatsapp = 18686139447
+    phone = 18686139447
 
 [params.services]
-    analyticsid = {{ANALYTICS_ID}}
+    analyticsid = 0
     notifications = true
 
 [params.social]
     youtube = ""
-    email = "{{EMAIL}}"
-    phone = {{PHONE}}
+    email = ""
+    phone = 18686139447
     facebook = ""
     instagram = ""
     tiktok = ""
