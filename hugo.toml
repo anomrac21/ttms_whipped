@@ -58,6 +58,13 @@ baseURL = 'https://whipped.ttmenus.com/'
     # apiUrl = "http://localhost:8084/api"
     # serviceUrl = "http://localhost:8084"
 
+# Menu Image Service - user-submitted images with admin approval
+[params.menuImageService]
+    enabled = true
+    apiUrl = "https://menu-images.ttmenus.com/api/v1"
+    # For local development, use:
+    # apiUrl = "http://localhost:8084/api"
+
 # Notification Service Configuration
 [params.notifications]
     enabled = true

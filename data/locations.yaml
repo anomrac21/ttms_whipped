@@ -2,12 +2,15 @@ locations:
   - address: "One Woodbrook Place"
     city: "Port of Spain"
     island: "Trinidad"
-    latlon: [10.667117,-6152892647837337.000000]
-    phone: "+18686139447"
-    whatsapp: "+18686139447"
-    subcategories: []
-    orderingtables: []
-    delivery:
+    latlon: [10.667117, -61.528926]
+    phone: "18686139447"
+    whatsapp: "18686139447"
+    subcategories:
+      - Restaurant
+    orderingtables:
+      - Takeaway Only
+      - Dine In
+    delivery: {}
     opening_hours:
       mode: "Auto"
       sun:

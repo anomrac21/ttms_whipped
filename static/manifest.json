@@ -1,7 +1,7 @@
 {
-    "name": "{{SITE_TITLE}}",
-    "short_name": "{{SITE_TITLE}}",
-    "description": "{{SITE_TITLE}} Digital Menu",
+    "name": "Whipped",
+    "short_name": "Whipped",
+    "description": "Whipped Digital Menu",
     "start_url": ".",
     "background_color": "#000000",
     "display": "standalone",
