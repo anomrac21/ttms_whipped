@@ -1,7 +1,7 @@
 :root {
     /* Header */
     --header-color: #000000ed;
-    --header-bg-color: #222731ee;
+    --header-bg-color: #ffffff00;
     --header-icon-color: #fefefe;
     --header-text-color: #fefefe;
     --header-text-shadow-color: #00000080;
@@ -10,9 +10,9 @@
     --header-bg-image: none;
 
     /* Hero */
-    --hero-bg-color: #000000;
+    --hero-bg-color: #ffffff;
     --hero-bg-image-fg-color: #f4dec3;
-    --hero-text-color: #ffffff;
+    --hero-text-color: #000000;
     --contact-info-bg: none;
 
     /* Main */

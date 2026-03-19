@@ -1,8 +1,4 @@
 ---
-image: branding/favicon512.webp
-images:
-    - image: branding/favicon512.webp
-slideshow:
-    - image: branding/favicon512.webp
+title: Whipped
 ---
 <p>Whipped – great food and vibes.</p>
