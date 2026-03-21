@@ -16,14 +16,14 @@
     --contact-info-bg: none;
 
     /* Main */
-    --main-bg: #000;
+    --main-bg: #ffffff;
     --main-bg-color: #f4dec3;
-    --main-text-color: #ffffff;
+    --main-text-color: #000000;
 
     /* Menu */
     --menu-bg-color-1: #22273111;
     --menu-bg-color-2: #00000055;
-    --menu-text-color: #ffffff;
+    --menu-text-color: #000000;
 
     /* Buttons */
     --button-color1: #222731;
@@ -33,11 +33,11 @@
     --button-text-color3: #fff;
 
     /* Selected Button */
-    --selected-button-color1: #200;
-    --selected-button-color2: #200;
+    --selected-button-color1: #ffffff;
+    --selected-button-color2: #ffffff;
     --selected-button-color3: #fff;
     --selected-button-color4: #000000ee;
-    --selected-text-color1: #fff;
+    --selected-text-color1: #000000;
     --selected-text-color2: #fff;
     --selected-text-color3: #85181c;
 

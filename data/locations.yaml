@@ -1,51 +1,48 @@
 locations:
-  - address: "One Woodbrook Place"
-    city: "Port of Spain"
-    island: "Trinidad"
+  - address: One Woodbrook Place
+    city: Port of Spain
+    island: Trinidad
     latlon: [10.667117, -61.528926]
-    phone: "18686139447"
-    whatsapp: "18686139447"
+    phone: 18683579447
+    whatsapp: 18683579447
     subcategories:
       - Restaurant
-    orderingtables:
-      - Takeaway Only
-      - Dine In
+    orderingtables: ["Takeaway Only", "Dine In"]
     delivery: {}
     opening_hours:
-      mode: "Auto"
+      mode: Auto
       sun:
-        - type: "Open"
+        - type: Open
           time: "10:00"
-        - type: "Close"
+        - type: Close
           time: "23:00"
       mon:
-        - type: "Open"
+        - type: Open
           time: "11:00"
-        - type: "Close"
+        - type: Close
           time: "23:00"
       tue:
-        - type: "Open"
+        - type: Open
           time: "11:00"
-        - type: "Close"
+        - type: Close
           time: "23:00"
       wed:
-        - type: "Open"
+        - type: Open
           time: "11:00"
-        - type: "Close"
+        - type: Close
           time: "23:00"
       thu:
-        - type: "Open"
+        - type: Open
           time: "11:00"
-        - type: "Close"
+        - type: Close
           time: "23:00"
       fri:
-        - type: "Open"
+        - type: Open
           time: "11:00"
-        - type: "Close"
+        - type: Close
           time: "01:00"
       sat:
-        - type: "Open"
+        - type: Open
           time: "10:00"
-        - type: "Close"
+        - type: Close
           time: "01:00"
-

@@ -54,9 +54,6 @@ baseURL = 'https://whipped.ttmenus.com/'
     apiUrl = "https://cms.ttmenus.com/api"
     serviceUrl = "https://cms.ttmenus.com"
     clientId = "ttms_whipped"
-    # For local development, use:
-    # apiUrl = "http://localhost:8084/api"
-    # serviceUrl = "http://localhost:8084"
 
 # Menu Image Service - user-submitted images with admin approval
 [params.menuImageService]
@@ -64,6 +61,7 @@ baseURL = 'https://whipped.ttmenus.com/'
     apiUrl = "https://menu-images.ttmenus.com/api/v1"
     # For local development, use:
     # apiUrl = "http://localhost:8084/api"
+    # serviceUrl = "http://localhost:8084"
 
 # Notification Service Configuration
 [params.notifications]
@@ -81,12 +79,12 @@ baseURL = 'https://whipped.ttmenus.com/'
     # Set to false to disable placing orders (cart still works; user gets message and order is cancelled)
     enabled = true
     orderingDisabledMessage = "Ordering is not available for this menu at this time."
-    vat = 0
-    servicecharge = 0
+    vat = 0.125
+    servicecharge = 0.1
     hastables = true
     usephonecall = false
-    whatsapp = 18686139447
-    phone = 18686139447
+    whatsapp = 18683579447
+    phone = 18683579447
 
 [params.services]
     analyticsid = 0
@@ -95,7 +93,7 @@ baseURL = 'https://whipped.ttmenus.com/'
 [params.social]
     youtube = ""
     email = ""
-    phone = 18686139447
+    phone = 18683579447
     facebook = ""
     instagram = ""
     tiktok = ""
