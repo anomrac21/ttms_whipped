@@ -87,7 +87,7 @@ baseURL = 'https://whipped.ttmenus.com/'
     phone = 18683579447
 
 [params.services]
-    analyticsid = 0
+    analyticsid = 27
     notifications = true
 
 [params.social]
