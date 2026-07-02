@@ -13,7 +13,7 @@
     --hero-bg-color: #ffffff;
     --hero-bg-image-fg-color: #f4dec3;
     --hero-text-color: #000000;
-    --contact-info-bg: none;
+    --contact-info-bg: #222731;
 
     /* Main */
     --main-bg: #ffffff;
@@ -42,8 +42,8 @@
     --selected-text-color3: #85181c;
 
     /* Footer */
-    --footer-bg-color: #fefefe;
-    --footer-text-color: #000;
+    --footer-bg-color: #222731;
+    --footer-text-color: #f4dec3;
 
     /* Modal */
     --modal-bg-container-color: #00000055;

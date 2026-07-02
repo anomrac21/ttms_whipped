@@ -1,7 +1,9 @@
 ---
 title: Tapas Around the World
 weight: 7
-icon: https://ct.ttmenus.com/icons/food/icon-nachos.webp
+icon: images/tapas.webp
+images:
+    primary: images/tapas.webp
 ---
 
 **Served after 5pm daily.** Small plates for sharing.

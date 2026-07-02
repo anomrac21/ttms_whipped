@@ -1,7 +1,9 @@
 ---
 title: Handcrafted Sliders
 weight: 9
-icon: https://cdn.ttmenus.com/icons/white/icon-burger.webp
+icon: images/sliders.webp
+images:
+    primary: images/sliders.webp
 ---
 
 Slider baskets — mix and match available.

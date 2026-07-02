@@ -1,7 +1,9 @@
 ---
 title: Paninis & Sandwiches
 weight: 11
-icon: https://ct.ttmenus.com/icons/food/icon-bread.webp
+icon: images/paninis-sandwiches.webp
+images:
+    primary: images/paninis-sandwiches.webp
 ---
 
 Ciabatta, baguette, and brioche sandwiches.

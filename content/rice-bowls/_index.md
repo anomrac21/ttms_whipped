@@ -1,7 +1,9 @@
 ---
 title: Rice Bowls
 weight: 5
-icon: https://ct.ttmenus.com/icons/food/icon-rice.webp
+icon: images/rice-bowls.webp
+images:
+    primary: images/rice-bowls.webp
 ---
 
 Rice bowls with proteins, curry, and risotto.

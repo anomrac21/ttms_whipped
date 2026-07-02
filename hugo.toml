@@ -9,8 +9,10 @@ languageCode = 'en-tt'
   [[module.mounts]]
     source = "themes/_menus_ttms/content"
     target = "content"
+
 title = 'Whipped'
 baseURL = 'https://whipped.ttmenus.com/'
+enableRobotsTXT = true
 
 [markup]
 
@@ -36,6 +38,8 @@ baseURL = 'https://whipped.ttmenus.com/'
   page = ["HTML", "JSON"]
 
 [params]
+  tier = "tier1"
+  description = "Whipped — restaurant, hookah & cocktail bar. View our menu and order online."
   authServiceUrl = "https://auth.ttmenus.com"
   adsServiceUrl = "https://ads.ttmenus.com"
   notifyServiceUrl = "https://notify.ttmenus.com"
@@ -55,13 +59,23 @@ baseURL = 'https://whipped.ttmenus.com/'
     serviceUrl = "https://cms.ttmenus.com"
     clientId = "ttms_whipped"
 
+# Dashboard update-ui still reads site.Params.content.*
+[params.content]
+    enabled = true
+    apiUrl = "https://cms.ttmenus.com/api"
+    clientId = "ttms_whipped"
+
+# Thumbor — on-demand resized images for dashboard previews
+[params.thumbor]
+    enabled = true
+    url = "https://thumbor.ttmenus.com"
+    sourceBaseUrl = "https://whipped.ttmenus.com"
+    menuImagesUseThumbor = true
+
 # Menu Image Service - user-submitted images with admin approval
 [params.menuImageService]
     enabled = true
     apiUrl = "https://menu-images.ttmenus.com/api/v1"
-    # For local development, use:
-    # apiUrl = "http://localhost:8084/api"
-    # serviceUrl = "http://localhost:8084"
 
 # Notification Service Configuration
 [params.notifications]
@@ -69,11 +83,28 @@ baseURL = 'https://whipped.ttmenus.com/'
     apiUrl = "https://notify.ttmenus.com/api/v1"
     websocketUrl = "wss://notify.ttmenus.com/api/v1/ws/connect"
     serviceUrl = "https://notify.ttmenus.com"
+  clientDomain = "whipped.ttmenus.com"
 
 [params.features]
     payments = false
     delivery = false
     notifications = true
+    analytics_access = true
+    featured = true
+    exclusive_ads = false
+    no_competitor_ads = false
+    unmetered_traffic = false
+
+# POS: enabled + provider drive runtime (head.html) and hub Account (index.json features.pos / pos_provider)
+[params.posintegration]
+    enabled = false
+    provider = ""
+    api_url = ""
+    access_token = ""
+    store_id = ""
+    sync_menu = false
+    auto_process_orders = false
+    fallback_to_whatsapp = true
 
 [params.orderingsystem]
     # Set to false to disable placing orders (cart still works; user gets message and order is cancelled)
@@ -86,17 +117,28 @@ baseURL = 'https://whipped.ttmenus.com/'
     whatsapp = 18683579447
     phone = 18683579447
 
+[params.orderingmenu]
+    sidesname = "Sides"
+
+# Payment Service — menu checkout (enable when client is onboarded to pay subdomain)
+[params.paymentService]
+    enabled = false
+    apiUrl = "https://pay.whipped.ttmenus.com"
+    clientId = "ttms_whipped"
+    currency = "TTD"
+    provider = "wipay"
+
 [params.services]
     analyticsid = 27
     notifications = true
 
 [params.social]
-    youtube = ""
-    email = ""
-    phone = 18683579447
     facebook = ""
     instagram = ""
     tiktok = ""
+    youtube = ""
+    email = ""
+    phone = 18683579447
 
 [privacy]
 

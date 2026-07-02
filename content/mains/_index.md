@@ -1,7 +1,9 @@
 ---
 title: The Mains
 weight: 8
-icon: https://ct.ttmenus.com/icons/food/icon-platter.webp
+icon: images/mains.webp
+images:
+    primary: images/mains.webp
 ---
 
 Steaks, chops, seafood, and house favourites.
