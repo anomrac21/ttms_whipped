@@ -1,5 +1,6 @@
 locations:
-  - address: One Woodbrook Place
+  - slug: port-of-spain
+    address: One Woodbrook Place
     city: Port of Spain
     island: Trinidad
     latlon: [10.667117, -61.528926]

@@ -1,0 +1,625 @@
+{
+  "multi_location_menus": false,
+  "shared": [
+    {
+      "section": "mains",
+      "file": "catch-of-the-day",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/catch-of-the-day.md"
+    },
+    {
+      "section": "mains",
+      "file": "chicken-parmesan",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/chicken-parmesan.md"
+    },
+    {
+      "section": "mains",
+      "file": "filet-mignon-8oz",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/filet-mignon-8oz.md"
+    },
+    {
+      "section": "mains",
+      "file": "full-rack-lamb",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/full-rack-lamb.md"
+    },
+    {
+      "section": "mains",
+      "file": "grilled-lobster-garlic-butter",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/grilled-lobster-garlic-butter.md"
+    },
+    {
+      "section": "mains",
+      "file": "grouper",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/grouper.md"
+    },
+    {
+      "section": "mains",
+      "file": "half-rack-lamb",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/half-rack-lamb.md"
+    },
+    {
+      "section": "mains",
+      "file": "kingfish",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/kingfish.md"
+    },
+    {
+      "section": "mains",
+      "file": "lobster-thermidor",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/lobster-thermidor.md"
+    },
+    {
+      "section": "mains",
+      "file": "pork-chops",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/pork-chops.md"
+    },
+    {
+      "section": "mains",
+      "file": "ribeye-10oz",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/ribeye-10oz.md"
+    },
+    {
+      "section": "mains",
+      "file": "salmon-main",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/salmon-main.md"
+    },
+    {
+      "section": "mains",
+      "file": "sea-bass",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/sea-bass.md"
+    },
+    {
+      "section": "mains",
+      "file": "striploin-8oz",
+      "authoring": "shared",
+      "content_path": "content/_shared/mains/striploin-8oz.md"
+    },
+    {
+      "section": "oh-crepe",
+      "file": "chinese-chicken-crepe",
+      "authoring": "shared",
+      "content_path": "content/_shared/oh-crepe/chinese-chicken-crepe.md"
+    },
+    {
+      "section": "oh-crepe",
+      "file": "coconut-lemongrass-chicken-crepe",
+      "authoring": "shared",
+      "content_path": "content/_shared/oh-crepe/coconut-lemongrass-chicken-crepe.md"
+    },
+    {
+      "section": "oh-crepe",
+      "file": "garden-vegetable-crepe",
+      "authoring": "shared",
+      "content_path": "content/_shared/oh-crepe/garden-vegetable-crepe.md"
+    },
+    {
+      "section": "oh-crepe",
+      "file": "thai-shrimp-crepe",
+      "authoring": "shared",
+      "content_path": "content/_shared/oh-crepe/thai-shrimp-crepe.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "banh-mi",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/banh-mi.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "beefy-burger",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/beefy-burger.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "beyond-meat-burger",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/beyond-meat-burger.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "chicken-a-la-vodka",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/chicken-a-la-vodka.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "chicken-parmesan-sub",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/chicken-parmesan-sub.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "chicken-pesto",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/chicken-pesto.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "classic-ham",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/classic-ham.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "classic-turkey",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/classic-turkey.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "dane-sandwich",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/dane-sandwich.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "lamb-meatball-sub",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/lamb-meatball-sub.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "lobster-grilled-cheese-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/lobster-grilled-cheese-panini.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "roasted-vegetable-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/roasted-vegetable-panini.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "steak-panini",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/steak-panini.md"
+    },
+    {
+      "section": "paninis-sandwiches",
+      "file": "tandoori-salmon-blt",
+      "authoring": "shared",
+      "content_path": "content/_shared/paninis-sandwiches/tandoori-salmon-blt.md"
+    },
+    {
+      "section": "pasta",
+      "file": "beef-lasagna",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/beef-lasagna.md"
+    },
+    {
+      "section": "pasta",
+      "file": "chicken-lasagna",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/chicken-lasagna.md"
+    },
+    {
+      "section": "pasta",
+      "file": "crab-mac-cheese",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/crab-mac-cheese.md"
+    },
+    {
+      "section": "pasta",
+      "file": "homestyle-spaghetti",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/homestyle-spaghetti.md"
+    },
+    {
+      "section": "pasta",
+      "file": "pasta-add-ons",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/pasta-add-ons.md"
+    },
+    {
+      "section": "pasta",
+      "file": "penne-al-vodka",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/penne-al-vodka.md"
+    },
+    {
+      "section": "pasta",
+      "file": "penne-arrabbiata",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/penne-arrabbiata.md"
+    },
+    {
+      "section": "pasta",
+      "file": "pesto-alfredo-linguine",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/pesto-alfredo-linguine.md"
+    },
+    {
+      "section": "pasta",
+      "file": "ricotta-sausage-cannelloni",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/ricotta-sausage-cannelloni.md"
+    },
+    {
+      "section": "pasta",
+      "file": "roasted-bell-pepper-pesto-linguine",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/roasted-bell-pepper-pesto-linguine.md"
+    },
+    {
+      "section": "pasta",
+      "file": "seafood-pasta",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/seafood-pasta.md"
+    },
+    {
+      "section": "pasta",
+      "file": "spaghetti-beyond-meat-bolognese",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/spaghetti-beyond-meat-bolognese.md"
+    },
+    {
+      "section": "pasta",
+      "file": "spaghetti-carbonara",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/spaghetti-carbonara.md"
+    },
+    {
+      "section": "pasta",
+      "file": "spinach-ricotta-cannelloni-mushrooms",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/spinach-ricotta-cannelloni-mushrooms.md"
+    },
+    {
+      "section": "pasta",
+      "file": "truffle-lobster-mac",
+      "authoring": "shared",
+      "content_path": "content/_shared/pasta/truffle-lobster-mac.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "chickpea-curry-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/chickpea-curry-bowl.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "cuban-chicken-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/cuban-chicken-bowl.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "firecracker-steak-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/firecracker-steak-bowl.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "greek-lamb-meatballs-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/greek-lamb-meatballs-bowl.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "salad-rice-bowl-add-ons",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/salad-rice-bowl-add-ons.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "teriyaki-salmon-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/teriyaki-salmon-bowl.md"
+    },
+    {
+      "section": "rice-bowls",
+      "file": "truffle-mushroom-risotto-bowl",
+      "authoring": "shared",
+      "content_path": "content/_shared/rice-bowls/truffle-mushroom-risotto-bowl.md"
+    },
+    {
+      "section": "salads",
+      "file": "caprese-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/caprese-salad.md"
+    },
+    {
+      "section": "salads",
+      "file": "classic-caesar",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/classic-caesar.md"
+    },
+    {
+      "section": "salads",
+      "file": "farro-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/farro-salad.md"
+    },
+    {
+      "section": "salads",
+      "file": "kale-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/kale-salad.md"
+    },
+    {
+      "section": "salads",
+      "file": "mediterranean-chickpea-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/mediterranean-chickpea-salad.md"
+    },
+    {
+      "section": "salads",
+      "file": "summer-salad",
+      "authoring": "shared",
+      "content_path": "content/_shared/salads/summer-salad.md"
+    },
+    {
+      "section": "sides",
+      "file": "fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/fries.md"
+    },
+    {
+      "section": "sides",
+      "file": "garlic-knotted-buns",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/garlic-knotted-buns.md"
+    },
+    {
+      "section": "sides",
+      "file": "jalapeno-cheddar-biscuits",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/jalapeno-cheddar-biscuits.md"
+    },
+    {
+      "section": "sides",
+      "file": "mashed-potatoes",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/mashed-potatoes.md"
+    },
+    {
+      "section": "sides",
+      "file": "pasta-side",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/pasta-side.md"
+    },
+    {
+      "section": "sides",
+      "file": "sweet-potato-fries",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/sweet-potato-fries.md"
+    },
+    {
+      "section": "sides",
+      "file": "vegetable-rice",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/vegetable-rice.md"
+    },
+    {
+      "section": "sides",
+      "file": "vegetables-side",
+      "authoring": "shared",
+      "content_path": "content/_shared/sides/vegetables-side.md"
+    },
+    {
+      "section": "sliders",
+      "file": "beef-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/beef-sliders.md"
+    },
+    {
+      "section": "sliders",
+      "file": "buffalo-chicken-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/buffalo-chicken-sliders.md"
+    },
+    {
+      "section": "sliders",
+      "file": "chorizo-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/chorizo-sliders.md"
+    },
+    {
+      "section": "sliders",
+      "file": "fish-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/fish-sliders.md"
+    },
+    {
+      "section": "sliders",
+      "file": "lamb-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/lamb-sliders.md"
+    },
+    {
+      "section": "sliders",
+      "file": "mixed-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/mixed-sliders.md"
+    },
+    {
+      "section": "sliders",
+      "file": "spicy-chicken-sliders",
+      "authoring": "shared",
+      "content_path": "content/_shared/sliders/spicy-chicken-sliders.md"
+    },
+    {
+      "section": "soup",
+      "file": "pumpkin-soup",
+      "authoring": "shared",
+      "content_path": "content/_shared/soup/pumpkin-soup.md"
+    },
+    {
+      "section": "soup",
+      "file": "soup-du-jour",
+      "authoring": "shared",
+      "content_path": "content/_shared/soup/soup-du-jour.md"
+    },
+    {
+      "section": "tapas",
+      "file": "baos",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/baos.md"
+    },
+    {
+      "section": "tapas",
+      "file": "ceviche-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/ceviche-shrimp.md"
+    },
+    {
+      "section": "tapas",
+      "file": "crab-cakes",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/crab-cakes.md"
+    },
+    {
+      "section": "tapas",
+      "file": "dip-platter",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/dip-platter.md"
+    },
+    {
+      "section": "tapas",
+      "file": "eggplant-parmesan-tapas",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/eggplant-parmesan-tapas.md"
+    },
+    {
+      "section": "tapas",
+      "file": "fried-calamari",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/fried-calamari.md"
+    },
+    {
+      "section": "tapas",
+      "file": "garlic-kale",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/garlic-kale.md"
+    },
+    {
+      "section": "tapas",
+      "file": "jerk-pork-belly",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/jerk-pork-belly.md"
+    },
+    {
+      "section": "tapas",
+      "file": "lamb-meatballs-tapas",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/lamb-meatballs-tapas.md"
+    },
+    {
+      "section": "tapas",
+      "file": "mac-n-cheese-tapas",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/mac-n-cheese-tapas.md"
+    },
+    {
+      "section": "tapas",
+      "file": "mussels-tapas",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/mussels-tapas.md"
+    },
+    {
+      "section": "tapas",
+      "file": "onion-crisps",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/onion-crisps.md"
+    },
+    {
+      "section": "tapas",
+      "file": "oyster-shots-champagne",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/oyster-shots-champagne.md"
+    },
+    {
+      "section": "tapas",
+      "file": "pepper-chicken",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/pepper-chicken.md"
+    },
+    {
+      "section": "tapas",
+      "file": "pepper-mushrooms",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/pepper-mushrooms.md"
+    },
+    {
+      "section": "tapas",
+      "file": "pepper-pork",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/pepper-pork.md"
+    },
+    {
+      "section": "tapas",
+      "file": "pepper-shrimp",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/pepper-shrimp.md"
+    },
+    {
+      "section": "tapas",
+      "file": "pepper-steak",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/pepper-steak.md"
+    },
+    {
+      "section": "tapas",
+      "file": "shrimp-clams-green-curry",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/shrimp-clams-green-curry.md"
+    },
+    {
+      "section": "tapas",
+      "file": "shrimp-cocktail",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/shrimp-cocktail.md"
+    },
+    {
+      "section": "tapas",
+      "file": "steak-tacos",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/steak-tacos.md"
+    },
+    {
+      "section": "tapas",
+      "file": "stuffed-portobellos",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/stuffed-portobellos.md"
+    },
+    {
+      "section": "tapas",
+      "file": "taco-trio",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/taco-trio.md"
+    },
+    {
+      "section": "tapas",
+      "file": "thai-wings",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/thai-wings.md"
+    },
+    {
+      "section": "tapas",
+      "file": "truffle-mushroom-risotto-tapas",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/truffle-mushroom-risotto-tapas.md"
+    },
+    {
+      "section": "tapas",
+      "file": "whipped-wings",
+      "authoring": "shared",
+      "content_path": "content/_shared/tapas/whipped-wings.md"
+    }
+  ],
+  "location": [],
+  "generated_at": "2026-10-14T22:03:47.806291+00:00"
+}

@@ -1,50 +1,57 @@
+/**
+ * The old page was white with black type. The dish sheet is the dark brand,
+ * so the ink is white. Cream remains only as the glow.
+ */
 :root {
-    /* Header */
-    --header-color: #000000ed;
-    --header-bg-color: #ffffff00;
-    --header-icon-color: #fefefe;
-    --header-text-color: #fefefe;
-    --header-text-shadow-color: #00000080;
-    --header-bordercolor-1: #dfeed4ff;
-    --header-bordercolor-2: #dfeed4ff;
-    --header-bg-image: none;
+  --header-bg-color: #000000ed;
+  --header-text-color: #fefefe;
+  --header-icon-color: #fefefe;
+  --header-border-color: #dfeed4;
 
-    /* Hero */
-    --hero-bg-color: #ffffff;
-    --hero-bg-image-fg-color: #f4dec3;
-    --hero-text-color: #000000;
-    --contact-info-bg: #222731;
+  --hero-bg-color-1: #000000;
+  --hero-bg-color-2: #000000;
+  --hero-text-color: #fefefe;
+  --hero-features-icon-color: #fefefe;
+  --hero-features-icon-bg-color: #222731;
+  --hero-border-color: #dfeed4;
 
-    /* Main */
-    --main-bg: #ffffff;
-    --main-bg-color: #f4dec3;
-    --main-text-color: #000000;
+  --main-bg: #000000;
+  --main-text-color: #fefefe;
 
-    /* Menu */
-    --menu-bg-color-1: #22273111;
-    --menu-bg-color-2: #00000055;
-    --menu-text-color: #000000;
+  --menu-bg-color-1: #222731;
+  --menu-bg-color-2: #000000;
+  --menu-text-color: #fefefe;
+  --favorite-color: #85181c;
 
-    /* Buttons */
-    --button-color1: #222731;
-    --button-color2: #000;
-    --button-text-color1: #fefefe;
-    --button-text-color2: #ffffff;
-    --button-text-color3: #fff;
+  --button-color1: #222731;
+  --button-color2: #000000;
+  --button-text-color1: #fefefe;
+  --button-text-color2: #ffffff;
+  --selected-button-color1: #ffffff;
+  --selected-button-color2: #ffffff;
+  --selected-button-color3: #85181c;
+  --selected-text-color1: #000000;
+  --selected-text-color3: #fefefe;
+  --select-color: #85181c;
+  --accent-color: #85181c;
+  --accent-text-color: #fefefe;
+  --accent-glow-color: #f4dec3;
 
-    /* Selected Button */
-    --selected-button-color1: #ffffff;
-    --selected-button-color2: #ffffff;
-    --selected-button-color3: #fff;
-    --selected-button-color4: #000000ee;
-    --selected-text-color1: #000000;
-    --selected-text-color2: #fff;
-    --selected-text-color3: #85181c;
+  --footer-bg-color: #222731;
+  --footer-text-color: #f4dec3;
+  --footer-icon-color: #f4dec3;
+  --modal-bg-container-color: #00000055;
 
-    /* Footer */
-    --footer-bg-color: #222731;
-    --footer-text-color: #f4dec3;
-
-    /* Modal */
-    --modal-bg-container-color: #00000055;
+  --header-color: #000000ed;
+  --header-text-shadow-color: #00000080;
+  --header-bordercolor-1: #dfeed4ff;
+  --header-bordercolor-2: #dfeed4ff;
+  --header-bg-image: none;
+  --hero-bg-color: #000000;
+  --hero-bg-image-fg-color: #f4dec3;
+  --contact-info-bg: #222731;
+  --main-bg-color: #000000;
+  --button-text-color3: #fff;
+  --selected-button-color4: #000000ee;
+  --selected-text-color2: #fff;
 }

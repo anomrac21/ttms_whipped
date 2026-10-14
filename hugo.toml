@@ -1,18 +1,21 @@
 theme = '_menus_ttms'
 languageCode = 'en-tt'
+title = 'Whipped'
+baseURL = 'https://whipped.ttmenus.com/'
+enableRobotsTXT = true
+timeout = '180s'
 
-# Mount theme's content (dashboard, locations, api, etc.); keep project content (defining mounts replaces default for that target)
+# Mount home, generated menu tree, and theme pages (dashboard, locations, api).
 [module]
   [[module.mounts]]
-    source = "content"
+    source = "content/_index.md"
+    target = "content/_index.md"
+  [[module.mounts]]
+    source = "content/.generated"
     target = "content"
   [[module.mounts]]
     source = "themes/_menus_ttms/content"
     target = "content"
-
-title = 'Whipped'
-baseURL = 'https://whipped.ttmenus.com/'
-enableRobotsTXT = true
 
 [markup]
 
@@ -53,6 +56,10 @@ enableRobotsTXT = true
     enabled = true
     apiUrl = "https://auth.ttmenus.com/api/v1"
 
+[params.reviews]
+    enabled = true
+    apiUrl = "https://reviews.ttmenus.com/api/v1"
+
 [params.contentManagement]
     enabled = true
     apiUrl = "https://cms.ttmenus.com/api"
@@ -64,6 +71,30 @@ enableRobotsTXT = true
     enabled = true
     apiUrl = "https://cms.ttmenus.com/api"
     clientId = "ttms_whipped"
+
+[params.menu]
+    multiLocationMenus = false
+
+[params.mapService]
+    url = "https://maps.ttmenus.com"
+    dataSource = "trinidad-tobago"
+
+[params.osrm]
+    url = "https://osrm.ttmenus.com"
+
+[params.orderService]
+    apiUrl = "https://orders.ttmenus.com/api/v1"
+    enabled = true
+    kitchenPrint = false
+    paperWidthMm = 80
+    printerName = ""
+
+[params.deliveryService]
+    apiUrl = "https://delivery.ttmenus.com/api/v1"
+    currency = "TTD"
+    deliveryFee = 0
+    enabled = false
+    wsUrl = "wss://delivery.ttmenus.com/api/v1"
 
 # Thumbor — on-demand resized images for dashboard previews
 [params.thumbor]
@@ -86,6 +117,7 @@ enableRobotsTXT = true
   clientDomain = "whipped.ttmenus.com"
 
 [params.features]
+    loyverse_connect = false
     payments = false
     delivery = false
     notifications = true
@@ -97,6 +129,8 @@ enableRobotsTXT = true
 
 # POS: enabled + provider drive runtime (head.html) and hub Account (index.json features.pos / pos_provider)
 [params.posintegration]
+    oauth_url = "https://loyverse-oauth.ttmenus.com"
+    loyverse_receipt_mode = "on_payment"
     enabled = false
     provider = ""
     api_url = ""
